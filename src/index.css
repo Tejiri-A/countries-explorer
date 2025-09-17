@@ -1,50 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import "tailwindcss";
 
-@theme{
-    --color-gray-50: #FCFCFCFC;
-    --color-gray-250: #C4C4C4C4;
-    --color-gray-300: #B2B2B2B2;
-    --color-gray-350: #97979797;
-    --color-gray-400: #80808080;
-    --color-gray-950: #111517;
+@theme {
+  --color-gray-50: #fcfcfcfc;
+  --color-gray-250: #c4c4c4c4;
+  --color-gray-300: #b2b2b2b2;
+  --color-gray-350: #97979797;
+  --color-gray-400: #80808080;
+  --color-gray-950: #111517;
 
-    --color-blue-900: #2B3844;
-    --color-blue-950: #202c36;
+  --color-blue-900: #2b3844;
+  --color-blue-950: #202c36;
 
-    --default-font-family: "Nunito Sans", sans-serif    
+  --default-font-family: "Nunito Sans", sans-serif;
 }
 
-@utility text-1{
-    @apply text-[2rem] leading-[1.375] font-extrabold
+@utility text-1 {
+  @apply text-[2rem] leading-[1.375] font-extrabold;
 }
-@utility text-2{
-    @apply text-[1.5rem] leading-[1.375] font-extrabold
+@utility text-2 {
+  @apply text-[1.5rem] leading-[1.375] font-extrabold;
 }
-@utility text-3{
-    @apply text-[1.125rem] leading-[1.45] font-extrabold
+@utility text-3 {
+  @apply text-[1.125rem] leading-[1.45] font-extrabold;
 }
-@utility text-4{
-    @apply text-base leading-[2] font-semibold
+@utility text-4 {
+  @apply text-base leading-[2] font-semibold;
 }
-@utility text-4-semiBold{
-    @apply text-4 font-semibold 
+@utility text-4-semiBold {
+  @apply text-4 font-semibold;
 }
-@utility text-4-light{
-    @apply text-4 font-light
+@utility text-4-light {
+  @apply text-4 font-light;
 }
-@utility text-5{
-    @apply text-sm leading-[1.45] font-normal
+@utility text-5 {
+  @apply text-sm leading-[1.45] font-normal;
 }
-@utility text-5-light{
-    @apply text-sm leading-[2.25] font-light
-}   
-@utility text-6{
-    @apply text-xs leading-[1.35]
+@utility text-5-light {
+  @apply text-sm leading-[2.25] font-light;
 }
-@utility text-6-semiBold{
-    @apply text-6 font-semibold
+@utility text-6 {
+  @apply text-xs leading-[1.35];
 }
-@utility text-6-light{
-    @apply text-6 font-light
+@utility text-6-semiBold {
+  @apply text-6 font-semibold;
+}
+@utility text-6-light {
+  @apply text-6 font-light;
 }
